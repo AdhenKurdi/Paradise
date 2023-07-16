@@ -1,0 +1,150 @@
+body {
+    font-family: 'arial', serif;
+    }
+    
+@media screen and (max-width: 600px) {
+    div.example {
+      font-size: 30px;
+    }
+  }
+/* navbar */
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+/* image size carousel */
+.img-caro {
+    height: auto;
+    /* width: 230vh; */
+}
+.txt {
+    text-align: center;
+}
+/* category image size dan hover effect */
+.kategori {
+    /* height: 18vh;
+    width: 18vh; */
+    width:100%;
+    height: auto;
+    transition: transform .1s;
+}
+.kategori:hover {
+    transform: scale(1.1);
+}
+/* css hr line */
+hr {
+    border: none;
+    height: 2px;
+    background-color: rgb(37, 96, 172);
+    width: 50%;
+}
+/* card border */
+.lining {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.card {
+    border-radius: 10%;
+}
+.card-coment {
+    border-radius: 5px;
+}
+/* css bintang */
+.checked {
+    color: orange;
+}
+/* card image round */
+.img-round {
+    border-radius: 10% 10% 0% 0%;
+    width: 100%;
+    height: 15vh;
+    object-fit: contain;
+
+}
+/* card image related */
+.img-related {
+    width: 100%;
+    height: 25vh;
+    object-fit: contain;
+}
+/* book slider css */
+.judul-baris {
+    padding-top: 50%;
+}
+/* book slide image hover */
+.slide-hover {
+    transition: transform .1s;
+}
+.slide-hover:hover {
+    transform: scale(1.1);
+}
+/* border side text slider */
+.slider-right {
+    border-bottom:2px solid rgb(37, 96, 172);
+}
+.slider-left {
+    border-bottom: 2px solid rgb(37, 96, 172);
+}
+/* span */
+.span-gap {
+    margin-left: 10px;
+}
+/* carousel control */
+.carousel-control-prev {
+    margin-left: -100px;
+}
+  
+.carousel-control-next {
+    margin-right: -100px;
+}
+/* carousel control icon */
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+.colom1 {
+    width: 250px;
+}
+/* table border settings*/
+.detail {
+    max-width:100%;
+    max-height:100%;
+}
+.item-identitas {
+    width: 150px;
+}
+/* bookmark container */
+.ukuran {
+    width: auto;
+}
+/* modal */
+body.modal-open, .modal-open .modal {
+    overflow: hidden;
+  }
+.w-80{
+    width: 83%;
+}
+/* btn responsive */
+@media (max-width: 768px) {
+    .btn-responsive {
+      padding:2px 4px;
+      font-size:80%;
+      line-height: 1;
+      border-radius:3px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    .btn-responsive {
+      padding:4px 9px;
+      font-size:90%;
+      line-height: 1.2;
+    }
+  }
+.navbar {
+    background-color: rgb(28, 35, 36);
+}
